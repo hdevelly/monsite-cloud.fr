@@ -1,0 +1,31 @@
+[Thu Feb 21 11:44:39.511257 2019] [authz_groupfile:error] [pid 6606] [client 172.17.0.1:34407] AH01666: Authorization of user coucou2 to access /users/addUser.php failed, reason: user doesn't appear in group file (/var/www/html/groups)., referer: http://127.0.0.1:8080/
+[Thu Feb 21 11:44:39.511351 2019] [authz_core:error] [pid 6606] [client 172.17.0.1:34407] AH01631: user coucou2: authorization failure for "/users/addUser.php": , referer: http://127.0.0.1:8080/
+[Thu Feb 21 11:52:03.986290 2019] [php7:warn] [pid 6606] [client 172.17.0.1:34441] PHP Warning:  file_put_contents(../../groups): failed to open stream: Permission denied in /var/www/html/cloud/users/addUser.php on line 25
+[Thu Feb 21 11:53:48.518070 2019] [authz_core:error] [pid 6633] [client 172.17.0.1:34450] AH01630: client denied by server configuration: /var/www/html/users
+[Thu Feb 21 11:54:06.596587 2019] [authz_core:error] [pid 6632] [client 172.17.0.1:34452] AH01630: client denied by server configuration: /var/www/html/users
+[Thu Feb 21 11:54:11.578821 2019] [authz_core:error] [pid 6632] [client 172.17.0.1:34452] AH01630: client denied by server configuration: /var/www/html/users
+[Thu Feb 21 11:54:15.392967 2019] [authz_core:error] [pid 6632] [client 172.17.0.1:34452] AH01630: client denied by server configuration: /var/www/html/
+[Thu Feb 21 11:54:40.828878 2019] [authz_core:error] [pid 6635] [client 172.17.0.1:34457] AH01630: client denied by server configuration: /var/www/html/
+[Thu Feb 21 11:55:21.989342 2019] [authz_core:error] [pid 6636] [client 172.17.0.1:34462] AH01630: client denied by server configuration: /var/www/html/
+[Thu Feb 21 11:55:22.111054 2019] [authz_core:error] [pid 6636] [client 172.17.0.1:34462] AH01630: client denied by server configuration: /var/www/html/favicon.ico
+[Thu Feb 21 11:55:22.146712 2019] [authz_core:error] [pid 6636] [client 172.17.0.1:34462] AH01630: client denied by server configuration: /var/www/html/favicon.ico
+[Thu Feb 21 11:58:46.934351 2019] [php7:warn] [pid 6660] [client 172.17.0.1:34481] PHP Warning:  file_put_contents(/var/www/html/groups): failed to open stream: Permission denied in /var/www/html/cloud/users/addUser.php on line 25
+[Thu Feb 21 11:59:12.483395 2019] [php7:warn] [pid 6665] [client 172.17.0.1:34486] PHP Warning:  file_put_contents(/var/www/html/groups): failed to open stream: Permission denied in /var/www/html/cloud/users/addUser.php on line 26
+[Thu Feb 21 12:00:02.260838 2019] [php7:warn] [pid 6663] [client 172.17.0.1:34491] PHP Warning:  file_put_contents(/var/www/html/groups): failed to open stream: Permission denied in /var/www/html/cloud/users/addUser.php on line 25
+[Thu Feb 21 12:00:20.256093 2019] [php7:warn] [pid 6661] [client 172.17.0.1:34494] PHP Warning:  file_put_contents(/var/www/html/groups): failed to open stream: Permission denied in /var/www/html/cloud/users/addUser.php on line 26
+[Thu Feb 21 12:00:58.403713 2019] [php7:warn] [pid 6662] [client 172.17.0.1:34498] PHP Warning:  file_put_contents(../../groups): failed to open stream: Permission denied in /var/www/html/cloud/users/addUser.php on line 25
+[Thu Feb 21 12:02:37.914919 2019] [php7:warn] [pid 6660] [client 172.17.0.1:34503] PHP Warning:  file_put_contents(../../groups): failed to open stream: Permission denied in /var/www/html/cloud/users/addUser.php on line 26
+[Thu Feb 21 12:04:43.042377 2019] [php7:warn] [pid 6691] [client 172.17.0.1:34509] PHP Warning:  file_put_contents(../../groups): failed to open stream: Permission denied in /var/www/html/cloud/users/addUser.php on line 26
+[Thu Feb 21 12:04:46.602180 2019] [php7:warn] [pid 6691] [client 172.17.0.1:34509] PHP Warning:  file_put_contents(../../groups): failed to open stream: Permission denied in /var/www/html/cloud/users/addUser.php on line 26
+[Thu Feb 21 12:06:01.625496 2019] [authz_core:error] [pid 6720] [client 172.17.0.1:34517] AH01630: client denied by server configuration: /var/www/html/
+[Thu Feb 21 12:18:00.347422 2019] [php7:emerg] [pid 6752] [client 172.17.0.1:34600] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/html/cloud/users/addUser.php on line 29
+[Thu Feb 21 12:18:27.937429 2019] [php7:emerg] [pid 6749] [client 172.17.0.1:34605] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/html/cloud/users/addUser.php on line 29
+[Thu Feb 21 12:25:32.510262 2019] [php7:notice] [pid 6751] [client 172.17.0.1:34649] PHP Notice:  Undefined index: username in /var/www/html/cloud/users/addUser.php on line 3
+[Thu Feb 21 12:25:57.105597 2019] [php7:notice] [pid 6747] [client 172.17.0.1:34653] PHP Notice:  Undefined index: username in /var/www/html/cloud/users/addUser.php on line 3
+[Thu Feb 21 12:26:58.686362 2019] [php7:notice] [pid 6752] [client 172.17.0.1:34659] PHP Notice:  Undefined index: group in /var/www/html/cloud/users/addUser.php on line 8
+[Thu Feb 21 12:27:16.495374 2019] [php7:notice] [pid 6748] [client 172.17.0.1:34661] PHP Notice:  Undefined index: group in /var/www/html/cloud/users/addUser.php on line 8
+[Thu Feb 21 12:27:16.495463 2019] [php7:notice] [pid 6748] [client 172.17.0.1:34661] PHP Notice:  Undefined variable: caracteres in /var/www/html/cloud/users/addUser.php on line 24
+[Thu Feb 21 12:27:35.028785 2019] [authz_core:error] [pid 6749] [client 172.17.0.1:34664] AH01631: user modo: authorization failure for "/users/addUser.php": 
+[Thu Feb 21 12:28:11.014440 2019] [authz_core:error] [pid 6751] [client 172.17.0.1:34667] AH01631: user modo: authorization failure for "/users/addUser.php": 
+[Thu Feb 21 12:31:26.677994 2019] [php7:notice] [pid 6747] [client 172.17.0.1:34677] PHP Notice:  Undefined index: group in /var/www/html/cloud/users/addUser.php on line 8
+[Thu Feb 21 12:31:26.678027 2019] [php7:notice] [pid 6747] [client 172.17.0.1:34677] PHP Notice:  Undefined variable: caracteres in /var/www/html/cloud/users/addUser.php on line 25
