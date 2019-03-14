@@ -29,3 +29,31 @@
 [Thu Feb 21 12:28:11.014440 2019] [authz_core:error] [pid 6751] [client 172.17.0.1:34667] AH01631: user modo: authorization failure for "/users/addUser.php": 
 [Thu Feb 21 12:31:26.677994 2019] [php7:notice] [pid 6747] [client 172.17.0.1:34677] PHP Notice:  Undefined index: group in /var/www/html/cloud/users/addUser.php on line 8
 [Thu Feb 21 12:31:26.678027 2019] [php7:notice] [pid 6747] [client 172.17.0.1:34677] PHP Notice:  Undefined variable: caracteres in /var/www/html/cloud/users/addUser.php on line 25
+[Thu Mar 14 09:24:55.772438 2019] [authz_core:error] [pid 26] [client 172.17.0.1:46606] AH01631: user modo: authorization failure for "/users/deleteUser.php": 
+[Thu Mar 14 09:33:36.440447 2019] [php7:notice] [pid 27] [client 172.17.0.1:46633] PHP Notice:  Undefined index: username in /var/www/html/cloud/users/deleteUser.php on line 5
+[Thu Mar 14 09:33:52.369206 2019] [php7:notice] [pid 28] [client 172.17.0.1:46635] PHP Notice:  Undefined index: username in /var/www/html/cloud/users/deleteUser.php on line 5
+[Thu Mar 14 09:34:32.899752 2019] [php7:notice] [pid 29] [client 172.17.0.1:46640] PHP Notice:  Undefined index: username in /var/www/html/cloud/users/deleteUser.php on line 5
+[Thu Mar 14 09:36:05.829299 2019] [php7:notice] [pid 30] [client 172.17.0.1:46646] PHP Notice:  Undefined index: username in /var/www/html/cloud/users/deleteUser.php on line 5
+[Thu Mar 14 09:42:45.937840 2019] [php7:notice] [pid 26] [client 172.17.0.1:46664] PHP Notice:  Undefined index: username in /var/www/html/cloud/users/deleteUser.php on line 5
+[Thu Mar 14 10:17:08.331893 2019] [php7:error] [pid 61] [client 172.17.0.1:46770] script '/var/www/html/cloud/users/adduser.php' not found or unable to stat
+[Thu Mar 14 10:28:33.401633 2019] [php7:error] [pid 159] [client 172.17.0.1:46801] script '/var/www/html/cloud/users/adduser.php' not found or unable to stat
+[Thu Mar 14 10:29:45.092347 2019] [php7:error] [pid 220] [client 172.17.0.1:46806] script '/var/www/html/cloud/users/adduser.php' not found or unable to stat
+[Thu Mar 14 10:39:23.032043 2019] [php7:error] [pid 362] [client 172.17.0.1:46839] script '/var/www/html/cloud/users/adduser.php' not found or unable to stat
+[Thu Mar 14 10:40:42.376447 2019] [php7:emerg] [pid 392] [client 172.17.0.1:46846] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /var/www/html/cloud/users/addUser.php on line 3
+[Thu Mar 14 10:43:33.638181 2019] [php7:emerg] [pid 391] [client 172.17.0.1:46853] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$' in /var/www/html/cloud/users/addUser.php on line 5
+[Thu Mar 14 10:43:55.822365 2019] [php7:emerg] [pid 393] [client 172.17.0.1:46856] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$' in /var/www/html/cloud/users/addUser.php on line 5
+[Thu Mar 14 10:45:39.290258 2019] [php7:emerg] [pid 389] [client 172.17.0.1:46866] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$' in /var/www/html/cloud/users/addUser.php on line 5
+[Thu Mar 14 10:45:59.715140 2019] [php7:emerg] [pid 392] [client 172.17.0.1:46868] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$' in /var/www/html/cloud/users/addUser.php on line 5
+[Thu Mar 14 10:49:41.650841 2019] [php7:emerg] [pid 393] [client 172.17.0.1:46883] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$' in /var/www/html/cloud/users/addUser.php on line 3
+[Thu Mar 14 10:49:59.657855 2019] [php7:notice] [pid 398] [client 172.17.0.1:46885] PHP Notice:  Undefined variable: username in /var/www/html/cloud/users/addUser.php on line 3
+[Thu Mar 14 10:56:25.273880 2019] [authz_core:error] [pid 457] [client 172.17.0.1:46907] AH01631: user modo: authorization failure for "/user/lol": 
+[Thu Mar 14 10:57:00.976083 2019] [authz_core:error] [pid 456] [client 172.17.0.1:46910] AH01631: user modo: authorization failure for "/user/lol": 
+[Thu Mar 14 11:48:01.192222 2019] [php7:emerg] [pid 497] [client 172.17.0.1:47091] PHP Parse error:  syntax error, unexpected '{' in /var/www/html/cloud/users/addFile.php on line 4
+[Thu Mar 14 11:50:29.055518 2019] [php7:notice] [pid 506] [client 172.17.0.1:47107] PHP Notice:  Array to string conversion in /var/www/html/cloud/users/addFile.php on line 15
+[Thu Mar 14 11:51:28.998451 2019] [php7:emerg] [pid 497] [client 172.17.0.1:47113] PHP Parse error:  syntax error, unexpected '{' in /var/www/html/cloud/users/addFile.php on line 4
+[Thu Mar 14 11:51:42.810196 2019] [php7:emerg] [pid 499] [client 172.17.0.1:47115] PHP Parse error:  syntax error, unexpected '{' in /var/www/html/cloud/users/addFile.php on line 4
+[Thu Mar 14 11:52:01.181132 2019] [php7:emerg] [pid 500] [client 172.17.0.1:47118] PHP Parse error:  syntax error, unexpected '{' in /var/www/html/cloud/users/addFile.php on line 4
+[Thu Mar 14 11:52:22.628079 2019] [php7:emerg] [pid 501] [client 172.17.0.1:47122] PHP Parse error:  syntax error, unexpected '{' in /var/www/html/cloud/users/addFile.php on line 10
+[Thu Mar 14 12:14:17.181174 2019] [authz_core:error] [pid 562] [client 172.17.0.1:47192] AH01631: user fichier: authorization failure for "/users/fichier/file": 
+[Thu Mar 14 12:16:44.128511 2019] [authz_core:error] [pid 589] [client 172.17.0.1:47204] AH01631: user fichier: authorization failure for "/users/coucou2/user/coucou2": 
+[Thu Mar 14 12:19:39.806332 2019] [authz_core:error] [pid 593] [client 172.17.0.1:47218] AH01631: user fichier: authorization failure for "/user/bobette": 
